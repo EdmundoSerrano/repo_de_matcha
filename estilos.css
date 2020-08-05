@@ -3,7 +3,54 @@ body {
     margin: 0;
   }
   h1 {
-    color: palevioletred
+    color: #8b8b8bcc
+  }
+  li {
+    display: inline;
+  }
+  
+  .header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+  }
+  .header > * {
+    display: inline-block;
+  }
+  .navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+  }
+  .menu-item {
+    display: inline;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  .actions {
+    width: 25%;
+    text-align: left;
+    font-size: 0;
+  }
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .actions a {
+    color: #67b54b;
+  }
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
   }
 
 
